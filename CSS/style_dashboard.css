@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f2f2;
+    font-family: Cuprum;
+}
+h5{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+#logo{
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid 2px #f1f2f2;
+    transition: 0.2s ease;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    border: solid 2px black;
+}
+nav ul li a:active{
+    border: solid 2px black;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    width: 170px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 2px black;
+    transition: 0.2s ease;
+}
+
+button:hover{
+    background-color: #f1f2f2;
+    color: black;
+}
+
+i{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#contact_icon{
+    margin-right: 0;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    transition: 0.2s ease;
+}
+
+#my_account{
+    margin-right: 0;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: solid 2px black;
+    transition: 0.2s ease;
+}
+
+#my_account:hover{
+    background-color: #f1f2f2;
+    color: black;
+}
+
+section{
+    margin-top: 80px;
+    padding: 30px 10%;
+    
+}
+
+fieldset{
+    margin-top: 10px;
+    width: 285px;
+    padding: 40px;
+    border: solid 2px black;
+    border-radius: 20px;
+    box-shadow: 10px 10px black, 10px 10px 0px 1px black;
+    display: inline;
+    margin-right: 50px;
+    transition: 0.2s ease;
+}
+
+fieldset:hover{
+    box-shadow: 20px 20px black, 20px 20px 0px 1px black;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.dot1{
+    width: 12px;
+    height: 12px;
+    background-color: #00a651;
+    border-radius: 4px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+.dot2{
+    width: 12px;
+    height: 12px;
+    background-color: #fbb040;
+    border-radius: 4px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+.dot3{
+    width: 12px;
+    height: 12px;
+    background-color: #1c75bc;
+    border-radius: 4px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+.dot4{
+    width: 12px;
+    height: 12px;
+    background-color: #f15a29;
+    border-radius: 4px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+.dot5{
+    width: 12px;
+    height: 12px;
+    background-color: #ed1c24;
+    border-radius: 4px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+.info{
+    margin-bottom: 90px;
+}
+#general_stats_fieldset{
+    width: 510px;
+}
+
+.wrapper2{
+    display: flex;
+    align-items: flex-end;
+}
+
+#stats_numbers{
+    font-size: 60px;
+}
