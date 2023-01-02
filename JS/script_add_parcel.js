@@ -26,15 +26,19 @@ function add_parcel(){
     var notes = document.getElementById('notes').value;
 
     
-
+    /*
 
     if(customer_name === "" || customer_phone_number === "" || product === "" || price === "" || delivery_city === ""){
         document.getElementById('error').innerHTML = "Fields Empty";
     }
     else {
+
+
+    */
         
         document.getElementById('add_info').style.display="none";
         document.getElementById('add_parcel').style.display="inline";
+        
         // Save Data
         window.localStorage.setItem('customer_name', JSON.stringify(customer_name));
         window.localStorage.setItem('customer_phone_number', JSON.stringify(customer_phone_number));
@@ -59,13 +63,12 @@ function add_parcel(){
             <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-solid fa-trash"></i></td>
         </tr>
         `;
+        
 
     }
 
 
 
-
-}
 
 
 
